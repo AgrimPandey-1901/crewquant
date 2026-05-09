@@ -1,3 +1,5 @@
 .env
 crewquant_venv
-**/*.pyc
+# Python bytecode
+*.pyc
+__pycache__/
