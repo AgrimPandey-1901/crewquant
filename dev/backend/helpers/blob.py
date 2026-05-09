@@ -2,7 +2,7 @@ import os
 from azure.storage.blob import BlobServiceClient
 from datetime import datetime
 from dotenv import load_dotenv
-from config import BLOB_CONNECTION_STRING, BLOB_CONTAINER_NAME
+from crewquant_repo.dev.backend.config import BLOB_CONNECTION_STRING, BLOB_CONTAINER_NAME
 
 load_dotenv()
 
